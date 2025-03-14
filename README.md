@@ -46,17 +46,17 @@ Follow these instructions to get a copy of the project on your local machine.
 ### Installation
 
 1. Clone the repository:
-     ```bash
-     git clone https://github.com/ItsZcx/r-type.git
-     ```
+    ```bash
+    git clone https://github.com/ItsZcx/r-type.git
+    ```
 2. Navigate to the project directory:
-     ```bash
-     cd r-type
-     ```
+    ```bash
+    cd r-type
+    ```
 3. Set up environment variables:
-     ```bash
-     cp .env.example .env
-     ```
+    ```bash
+    make install
+    ```
 
 ### Usage
 
@@ -69,12 +69,12 @@ To run the project, you can use the provided Makefile which includes commands to
 
 2. **Run the server:**
     ```bash
-        ./server [PORT]
+    ./server [PORT]
     ```
 
 3. **Run the client:**
     ```bash
-        ./client
+    ./client
     ```
 
 When you run the client, it will prompt you to enter the server IP. If you are running both the server and client on the same machine, provide the IP in the format `127.0.0.1:PORT`. Otherwise, provide the appropriate server IP and port.
@@ -109,11 +109,11 @@ This project is licensed under the **MIT** License - see the [LICENSE](./LICENSE
 
 ### Team Members
 
-- **Joan Pau Mérida Ruiz**: *Backend Developer, Infra Manager* ([GitHub](https://github.com/itszcx), [LinkedIn](https://www.linkedin.com/in/joan-pau-merida-ruiz), [Email](mailto:joanpaumeridaruiz@gmail.com))
-- **Alex Arteaga Contijoch**: *Backend Developer* ([GitHub](https://github.com/alex-alra-arteaga), [LinkedIn](https://www.linkedin.com/in/alex-arteaga-c/), [Email](mailto:alex.arteaga-contijoch@epitech.eu))
-- **David Salvatella Gelpi**: *Fullstack Developer* ([GitHub](https://github.com/xRozzo), [LinkedIn](hthttps://www.linkedin.com/in/david-salvatella/), [Email](mailto:david.salvatella-gelpi@epitech.eu))
-- **Matheus López**: *Frontend Developer* ([GitHub](https://github.com/MatheusFreixo), [LinkedIn](https://www.linkedin.com/in/matheusfreixo/), [Email](mailto:matheus.lopez@epitech.eu))
-- **Mario Alessandro**: *Mobile Developer* ([GitHub](https://github.com/MarioHM2004), [LinkedIn](https://www.linkedin.com/in/mario-herranz-b47512261/), [Email](mailto:mario-alessandro.herranz-machado@epitech.eu))
+- **Joan Pau Mérida Ruiz**: *Game Engine/System Developer* ([GitHub](https://github.com/itszcx), [LinkedIn](https://www.linkedin.com/in/joan-pau-merida-ruiz), [Email](mailto:joanpaumeridaruiz@gmail.com))
+- **David Salvatella Gelpi**: *Game Engine/System Developer* ([GitHub](https://github.com/xRozzo), [LinkedIn](https://www.linkedin.com/in/david-salvatella/), [Email](mailto:david.salvatella-gelpi@epitech.eu))
+- **Alex Arteaga Contijoch**: *DevOps, Project Manager* ([GitHub](https://github.com/alex-alra-arteaga), [LinkedIn](https://www.linkedin.com/in/alex-arteaga-c/), [Email](mailto:alex.arteaga-contijoch@epitech.eu))
+- **Matheus López**: *Gameplay Programmer* ([GitHub](https://github.com/MatheusFreixo), [LinkedIn](https://www.linkedin.com/in/matheusfreixo/), [Email](mailto:matheus.lopez@epitech.eu))
+- **Mario Alessandro**: *Gameplay Programmer* ([GitHub](https://github.com/MarioHM2004), [LinkedIn](https://www.linkedin.com/in/mario-herranz-b47512261/), [Email](mailto:mario-alessandro.herranz-machado@epitech.eu))
 
 ## Acknowledgments
 
