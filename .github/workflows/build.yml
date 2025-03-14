@@ -1,0 +1,30 @@
+name: CMake Build
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+
+    - name: Install dependencies
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y build-essential cmake libsfml-dev doxygen pip
+        pip install conan
+
+    - name: Build project
+      run: |
+        conan profile detect
+        make
+
+    - name: Verify build
+      run: echo "Build completed successfully."

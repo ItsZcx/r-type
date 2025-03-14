@@ -1,0 +1,54 @@
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Build files
+build/
+.vscode/
+.cache/
+.vercel/
+spec.md
+
+compile_commands.json
+*.zip
+notes.md
+
+sources/client/build/
+sources/server/build/
+CMakeUserPresets.json
+
+# Ignores ONLY the binaries at root, not other files with the same name in subdirectories
+/server
+/client
+
+# CMake files
+.env
